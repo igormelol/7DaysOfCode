@@ -1,0 +1,66 @@
+.relato {
+  background: var(--relato-background);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.relato__funcionario {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+}
+
+.relato_falam {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vinho);
+  margin-bottom: 1em;
+}
+
+.relato__texto {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--cinza-tec);
+  text-align: center;
+  margin: 1em;
+}
+
+.relato__imagem {
+  margin: 0.5em 0;
+}
+
+.relato__nome {
+  font-weight: 500;
+  color: var(--cinza-tec);
+  margin-bottom: 0.5em;
+}
+
+.relato__profissao {
+  font-size: 14px;
+  color: var(--cinza);
+}
+
+@media screen and (max-width: 1200px) {
+  .relato__texto {
+    font-size: 2px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .relato {
+    margin: 0 0.5em;
+    text-align: center;
+  }
+
+  .relato__texto {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,125 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 2em;
+  }
+  
+  .cabecalho__container {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  
+  .cabecalho__logo-texto {
+    color: var(--cinza-sec);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .cabecalho__nav {
+    margin-right: 20em;
+  }
+  
+  .cabecalho__nav-menu {
+    display: flex;
+  }
+  
+  .cabecalho__nav-lista {
+    padding-right: 1em;
+  }
+  
+  .cabecalho__nav-link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+  }
+  
+  .cabecalho__botao {
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+  }
+  
+  .cabecalho__botao-entrar {
+    border: none;
+    background-color: var(--branco);
+    color: var(--cinza);
+  }
+  
+  .cabecalho__botao-cadastrar {
+    background: var(--vinho);
+    color: var(--branco);
+    border: 1px solid #8e2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+  }
+  
+  .cabecalho__botoes-resp {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cabecalho {
+      display: block;
+      text-align: center;
+    }
+  
+    .cabecalho__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cabecalho__nav,
+    .cabecalho__botoes {
+      display: inline-block;
+      align-items: center;
+    }
+  
+    .cabecalho__nav {
+      margin-right: 5em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cabecalho {
+      margin: 1em;
+    }
+    .cabecalho__container {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .cabecalho__logo-texto {
+      display: none;
+    }
+  
+    .cabecalho__botoes-resp {
+      display: inline-block;
+    }
+  
+    .cabecalho__botoes {
+      display: none;
+    }
+  
+    .cabecalho__nav {
+      margin: 0;
+    }
+  
+    .cabecalho__nav-menu {
+      margin: 1em 0;
+    }
+  
+    .cabecalho__nav-lista {
+      padding: 0 1em;
+    }
+  
+    .cabecalho__nav-link {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  

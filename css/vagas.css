@@ -1,0 +1,130 @@
+.vagas {
+    margin: 0 2em;
+  }
+  
+  .vagas__apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .vagas__apresentacao-abertas {
+    background-color: var(--backgroud);
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+  }
+  
+  .vagas_apresetacao-titulo {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--cinza-tec);
+    margin: 1em 0;
+  }
+  
+  .vagas__apresentacao-texto {
+    color: var(--cinza);
+    font-size: 20px;
+  }
+  
+  .vagas__apresentacao-imagem {
+    width: 90%;
+    margin: 2em 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+  }
+  
+  .vagas__disponiveis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 5em;
+  }
+  
+  .vagas__container {
+    padding: 0 10em;
+  }
+  
+  .vagas__disponiveis-titulo {
+    color: var(--cinza-tec);
+    margin: 2em;
+    font-weight: 500;
+  }
+  
+  .vagas__disponiveis-cargo {
+    border: 1px solid var(--cor-borda);
+    padding: 1.5em;
+    margin: 1em 2em;
+    border-radius: 16px;
+  }
+  
+  .vagas__disponiveis-vaga {
+    color: var(--cinza-tec);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1em;
+  }
+  
+  .vagas__disponiveis-horario,
+  .vagas__disponiveis-salario {
+    font-weight: 500;
+    color: var(--cinza);
+    display: inline-block;
+  }
+  
+  .vagas__disponiveis-horario {
+    margin-right: 2em;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .vagas__disponiveis {
+      flex-direction: row;
+      margin: 1em;
+    }
+  
+    .vagas__container {
+      padding: 0 2em;
+    }
+  
+    .vagas__disponiveis-horario {
+      padding: 0 0 0.5em 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .vagas {
+      margin: 0;
+    }
+  
+    .vagas__apresentacao {
+      text-align: center;
+    }
+  
+    .vagas_apresetacao-titulo {
+      font-size: 24px;
+      margin: 2em 0;
+    }
+  
+    .vagas__apresentacao-texto {
+      font-size: 18px;
+    }
+  
+    .vagas__apresentacao-imagem {
+      display: none;
+    }
+  
+    .vagas__disponiveis {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .vagas__container {
+      padding: 0 1em;
+    }
+  }
+  

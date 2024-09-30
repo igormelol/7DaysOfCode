@@ -1,0 +1,23 @@
+.rodape {
+    background: var(--background-newsletter);
+    text-align: center;
+  }
+  
+  .rodape__texto {
+    color: var(--cor-rodape);
+    padding: 1em 0 5em;
+    font-size: 13px;
+    background: var(--background-newsletter);
+    margin-top: 20px;
+  }
+  
+  .rodape_cel {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .rodape_cel {
+      display: block;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+@import url(css/header.css);
+@import url(css/diferencas.css);
+@import url(css/vagas.css);
+@import url(css/relato.css);
+@import url(css/newsletter.css);
+@import url(css/rodape.css);
+
+:root {
+  --branco: #ffffff;
+  --preto: #111111;
+  --vinho: #8e2424;
+  --cinza: #667085;
+  --cinza-sec: #3a404e;
+  --cinza-tec: #101828;
+  --cor-borda: #eaecf0;
+  --cor-rodape: #98a2b3;
+  --backgroud: rgba(142, 36, 36, 0.05);
+  --background-newsletter: #f9fafb;
+  --relato-background: rgba(196, 25, 25, 0.03);
+  --fonte-principal: "Inter";
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+  /* margin: 0 2em; */
+}
